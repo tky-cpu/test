@@ -1,0 +1,75 @@
+document.write
+alert
+console.log
+prompt
+var全局变量(可以先使用后声明) let局部变量
+不能重复声明变量
+nav-jet(命名中间加上横杠) ->css可以 其他编程语言不可以
+const int N=
+nan not a number
+单双引号找最近的匹配 \' ->转义
+字符串和其他类型拼接会转化成字符串+  -*/会把其他转成数字 +'123'也可以
+比较运算符也会隐式转换
+外面反引号 内部${}
+有1 0代替真假的写法吗 可以
+赋值null为对象类型
+parseInt/parseFloat 可以去除后面的字符内容
+==/===/!==
+nan不等于任何人
+小数比较先扩大为整数 计算结果在缩小
+先&&后||
+null字符串为假
+转为数字会自动消除前导零
+switch只会匹配一次,如果不break则穿透往下执行
+f10往下走
+数组越界undefined
+${}内部可以加运算符
+未定义加数字=NAN
+arr[i]如果没有第i个值，则会自动添加
+
+arr.push(1,2,3,...)可以像末尾添加元素 返回数组长度 尾插
+unshift 头插
+pop 尾删 返回被删除的值
+shift 头删 
+splice(1,2) 1.开始位置 2.删除个数,不写默认删到最后
+function func(arr=[])
+return [max,min] 返回多个数据
+F11进入函数
+如果函数内部,变量没有声明,直接赋值,也当全局变量看
+函数内部也可以声明函数
+函数没有return返回undefined
+具名函数的调用位置可以是任意位置 匿名函数必须在声明之后
+1.匿名函数直接赋值给变量
+2.(function(){})() 前半部分为匿名函数 (fn)() 立即调用 分号隔开
+内部变量互不影响,相当于立即执行函数为每块代码划分了局部作用域
+匿名函数也可以加名字 
+11&&22 返回22 逻辑表达式执行到什么地方就返回那个地方表达式的值
+只有比较运算返回值是1或0 其他有些需要通过boolean转换
+对象元素的删除delete obj.element
+属性名可以加引号 通过obj['属性名']查询
+方法也可以加引号 
+for(let k in obj)k为字符串
+mdn查找手册
+>=20.5->21
+>=-20.5->-20
+null   let obj ={} 空对象
+
+
+
+
+
+js三个案例 css学成在线网 wzry渲染案例
+css
+盒子既有left 又有right  先left 后right
+
+display none 脱标并隐藏
+block 转成块级或显示元素
+visibility inherit 继承父级可见性 保留位置
+visible 显示元素
+hidden  隐藏元素
+overflow 默认显示溢出盒子的元素
+visible
+hidden 消除塌陷 清除浮动
+scroll 加上下滚动条 不溢出时也显示
+auto 只有溢出时才显示滚动条
+伪元素清除浮动的本质
